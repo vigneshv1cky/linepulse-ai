@@ -1,0 +1,73 @@
+# ---------------------------
+# Python / Virtual Env
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+.ipython/
+
+# ---------------------------
+# Streamlit / App Artifacts
+# ---------------------------
+.streamlit/cache/
+.streamlit/static/
+
+# Local logs
+logs/
+*.log
+
+# ---------------------------
+# OS / Editor Specific
+# ---------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+
+# ---------------------------
+# Secrets / Config
+# ---------------------------
+# Do NOT commit real keys
+.env.local
+.env.dev
+.env.prod
+.env.test
+
+# Any other secret files
+*secret*
+*credentials*
