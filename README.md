@@ -1,5 +1,5 @@
 
-# 🟩 LinePulse AI
+# LinePulse AI
 
 ### **AI-Powered Downtime Intelligence & Decision Copilot for Manufacturing**
 
@@ -98,7 +98,6 @@ linepulse-ai/
 │   ├── data_loader.py
 │   ├── kpi_engine.py
 │   ├── summary_formatter.py
-│   ├── prompts.py
 │   ├── llm_client.py
 │   └── charts.py
 ├── manufacturing-machine-downtime-logs.csv
@@ -189,3 +188,7 @@ MIT License.
 
 Built for the **IndustrialEngineer.ai Vibe Coding Hackathon**.
 Designed to help factories reduce downtime with AI you can trust.
+
+Dataset Source:
+Downtime dataset was sourced from publicly available synthetic manufacturing datasets indexed through Google Dataset Search:
+<https://datasetsearch.research.google.com/search?src=0&query=Manufacturing%20Downtime%20&docid=L2cvMTF4a2NqaHdqbg%3D%3D>

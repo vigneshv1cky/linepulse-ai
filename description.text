@@ -1,0 +1,41 @@
+LinePulse AI – AI-Powered Downtime Intelligence & Decision Copilot
+
+LinePulse AI is an industrial decision-support tool that transforms raw machine downtime logs into immediate, actionable recommendations for improving safety, quality, productivity, delivery, and cost performance. Instead of requiring engineers to manually analyze spreadsheets or create dashboards, LinePulse AI automatically converts data into prioritized decisions, a 7-day improvement plan, and risk assessments the moment a CSV file is uploaded.
+
+The Problem:
+Manufacturers spend significant time manually reviewing downtime logs to understand what’s failing, why it’s happening, and what to do about it. These analyses are slow, inconsistent, and often require specialized skills in data manipulation, industrial engineering, and root cause reasoning. As a result, plants struggle to respond quickly to recurring failures, unplanned downtime, and hidden inefficiencies.
+
+The Solution:
+LinePulse AI automates the entire workflow. It ingests downtime datasets, performs structured KPI analysis, generates visual insights, and then uses an LLM-powered reasoning engine to produce a fully interpretable Decision Summary without any prompting. The tool identifies bottlenecks, explains root causes, and recommends targeted actions based strictly on the data provided. Engineers can then continue asking multi-turn questions (e.g., “Show me only quick wins” or “Focus on Machine 3”) as the AI maintains context for deeper insights.
+
+How It Works:
+1. Upload CSV data containing machine downtime logs.
+2. Automated Data Processing: The tool cleans timestamps, formats duration, standardizes text fields, and extracts meaningful KPI trends.
+3. Visualization: Plotly charts summarize downtime by machine, type, and location for fast understanding.
+4. AI Decision Engine:
+   * Generates top 3–5 actions to take
+   * Provides root cause commentary
+   * Creates a 7-day action plan
+   * Highlights risks of inaction
+   * Structures recommendations by Machine, Maintenance, Process, and People
+5. Interactive Conversations: Users can chat with LinePulse AI for follow-up questions, scenario exploration, or executive summaries.
+
+Impact:
+LinePulse AI helps manufacturers:
+* Reduce downtime by identifying high-impact actions
+* Improve reliability through data-driven recommendations
+* Accelerate continuous improvement with prioritized decision-making
+* Increase productivity by aligning maintenance and production teams
+* Improve delivery & cost performance with earlier interventions and better asset utilization
+
+By automating analysis that typically takes hours, LinePulse AI enables engineers to focus on corrective action rather than manual reporting.
+
+Why It Stands Out:
+Unlike traditional dashboards or simple chatbots, LinePulse AI:
+* Automatically generates recommendations without prompting
+* Uses structured decision frameworks
+* Supports multi-turn reasoning rooted strictly in the provided data
+* Requires no coding or analytics expertise
+* Is fully modular and extensible to RAG, predictive models, and multi-plant comparisons
+
+LinePulse AI demonstrates how AI can meaningfully improve industrial decision-making, making operations smarter, faster, and more resilient.
